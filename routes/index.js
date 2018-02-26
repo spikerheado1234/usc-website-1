@@ -1,9 +1,19 @@
-var express = require('express');
+var express = require("express");
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+var users = require("./users");
 
-module.exports = router;
+module.exports = function(db) {
+  // Other route modules go here
+  router.use("/user", users(db));
+
+  // Handle static pages
+  router.get("/about", function(req, res, next) {
+    res.send("about");
+  });
+  router.get("/", function(req, res, next) {
+    res.render("index", { title: "Index Page" });
+  });
+
+  return router;
+};
