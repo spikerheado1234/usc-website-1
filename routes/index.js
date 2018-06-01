@@ -14,6 +14,12 @@ module.exports = function(db) {
   router.get("/", function(req, res, next) {
     res.render("index", { title: "Index Page" });
   });
+  router.get("/about_us", function(req, res, next) {
+    res.render("about_us");
+  });
+  router.get("/events", function(req, res, next) {
+    res.render("events");
+  });
 
   return router;
 };

@@ -6,3 +6,154 @@ a {
   color: #00B7FF; }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Attributes pertaining to the entire page. */
+.page {
+  width: 1300px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 12px;
+}
+
+/* Attributes pertaining to the usp logo in the nav bar on every page. */
+.logo {
+  height: 70px;
+  width: 173px;
+  padding-top: 8px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  background-color: white;
+}
+
+/* attributes pertaining to the navigation bar on every page. */
+.navbarattribute {
+  display: inline-block;
+  float: left;
+  font-family: 'Lato';
+  font-size: 20px;
+  padding-top: 31px;
+  padding-right: 20px;
+  padding-bottom: 21px;
+  padding-left: 20px;
+}
+
+.navbarattribute p:link {
+  text-decoration: none;
+}
+
+.navbarattribute p:hover {
+  background-color: #ff9c08;
+}
+
+.navbar {
+  width: 100%;
+}
+
+.login {
+  float: right;
+  display: block;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  height: 61px;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Attributes pertaining to the merchadise pictures on the home page. */
+.merchandisestore {
+  display: inline-block;
+  width:216.6px;
+  height:216.6px;
+  float: left;
+}
+
+/* Attributes pertaining to the about_us page */
+.about_us_text p {
+  align: left;
+}
+
+.managementcommittee {
+  display: inline-block;
+  text-align: justify;
+}
+
+.managementcoms {
+  display: inline-block;
+}
+
+.managmentcomrowone {
+  display: inline-block;
+  float: left;
+  width: 433px;
+}
+
+/* Attributes pertaining to the events page */
+.events {
+
+}
+
+.pastevents {
+
+}
+
+.pasteventsrowone {
+  width: 100%;
+  display: inline-block;
+}
+
+.pasteventsrowtwo {
+  width: 100%;
+  display: inline-block;
+}
+
+.calendarEntry {
+
+}
+
+.calendarIcon {
+  background-color:#002a90;
+  border-radius:10px;
+  width: 63px;
+  height: 63px;
+  float: left;
+}
+
+.calendarIcon h4 {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 8px;
+  font-size: 14pt;
+  color: white;
+  text-align: center;
+}
+
+.calendarIcon p {
+  color: white;
+  margin-top: 0px;
+  text-align: center;
+  width: 63px;
+  font-size: 10pt;
+  font-family: 'Lato', sans-serif;
+}
+
+.calendarInfo {
+  float: left;
+}
+
+.calendarInfo p {
+  margin-top: -5px;
+}
+
+.calendarInfo h3 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 7px;
+}
