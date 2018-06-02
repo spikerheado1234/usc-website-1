@@ -3,7 +3,8 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
 
 a {
-  color: #00B7FF; }
+  color: #00B7FF;
+}
 
 /*# sourceMappingURL=style.css.map */
 
@@ -156,4 +157,33 @@ a {
   font-weight: lighter;
   font-family: 'Lato', sans-serif;
   margin-bottom: 7px;
+}
+
+/* Attributes pertaining to Spaces page. */
+.spacesPicturesRowOne img {
+  width: 400px;
+  max-height: 400px;
+  float: left;
+}
+
+.spacesPicturesRowOne div {
+  display: inline-block;
+}
+
+.spacesPicturesRowTwo img {
+  width: 420px;
+  max-height: 400px;
+  float: left;
+}
+
+.spacesPicturesRowTwo div {
+  display: inline-block;
+}
+
+.tr1Info p, .tr1Info ol, .tr1Info ul {
+  text-align: left;
+}
+
+.spacesPictures img:hover {
+  background-color: #d3d3d3;
 }

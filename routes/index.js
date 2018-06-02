@@ -8,9 +8,6 @@ module.exports = function(db) {
   router.use("/user", users(db));
 
   // Handle static pages
-  router.get("/about", function(req, res, next) {
-    res.send("about");
-  });
   router.get("/", function(req, res, next) {
     res.render("index", { title: "Index Page" });
   });
@@ -20,6 +17,14 @@ module.exports = function(db) {
   router.get("/events", function(req, res, next) {
     res.render("events");
   });
-
+  router.get("/spaces", function(req, res, next) {
+    res.render("spaces");
+  });
+  router.get("/spaces/tr1", function(req, res, next) {
+    res.render("tr1");
+  });
+  router.get("/spaces/tr2", function(req, res, next) {
+    res.render("tr2");
+  });
   return router;
 };
