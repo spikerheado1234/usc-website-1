@@ -2,29 +2,20 @@ var express = require("express");
 var router = express.Router();
 
 var users = require("./users");
+var about_us = require("./about_us");
+var spaces = require("./spaces");
+var events = require("./events");
 
 module.exports = function(db) {
   // Other route modules go here
   router.use("/user", users(db));
+  router.use("/about_us", about_us(db));
+  router.use("/spaces", spaces(db));
+  router.use("/events", events(db));
 
   // Handle static pages
   router.get("/", function(req, res, next) {
     res.render("index", { title: "Index Page" });
-  });
-  router.get("/about_us", function(req, res, next) {
-    res.render("about_us");
-  });
-  router.get("/events", function(req, res, next) {
-    res.render("events");
-  });
-  router.get("/spaces", function(req, res, next) {
-    res.render("spaces");
-  });
-  router.get("/spaces/tr1", function(req, res, next) {
-    res.render("tr1");
-  });
-  router.get("/spaces/tr2", function(req, res, next) {
-    res.render("tr2");
   });
   return router;
 };
