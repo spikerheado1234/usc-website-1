@@ -96,14 +96,6 @@ a {
 }
 
 /* Attributes pertaining to the events page */
-.events {
-
-}
-
-.pastevents {
-
-}
-
 .pasteventsrowone {
   width: 100%;
   display: inline-block;
@@ -112,10 +104,6 @@ a {
 .pasteventsrowtwo {
   width: 100%;
   display: inline-block;
-}
-
-.calendarEntry {
-
 }
 
 .calendarIcon {
@@ -207,3 +195,5 @@ a {
 .chatterInfo p, .chatterInfo ol, .chatterInfo ul {
   text-align: left;
 }
+
+/* attributes pertaining to the store page. */

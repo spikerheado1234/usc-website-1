@@ -7,4 +7,4 @@ module.exports = function(db) {
     res.render('about_us');
   });
   return router;
-}
+};
