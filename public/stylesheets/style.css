@@ -161,8 +161,8 @@ a {
 
 /* Attributes pertaining to Spaces page. */
 .spacesPicturesRowOne img {
-  width: 400px;
-  max-height: 400px;
+  width: 420px;
+  max-height: 350px;
   float: left;
 }
 
@@ -172,7 +172,7 @@ a {
 
 .spacesPicturesRowTwo img {
   width: 420px;
-  max-height: 400px;
+  max-height: 280px;
   float: left;
 }
 
@@ -186,4 +186,24 @@ a {
 
 .spacesPictures img:hover {
   background-color: #d3d3d3;
+}
+
+.tr2Info p, .tr2Info ol, .tr2Info ul {
+  text-align: left;
+}
+
+.ctphInfo p, .ctphInfo ol, .ctphInfo ul {
+  text-align: left;
+}
+
+.amphitheatreInfo p, .amphitheatreInfo ol, .amphitheatreInfo ul {
+  text-align: left;
+}
+
+.protoInfo p, .protoInfo ol, .protoInfo ul {
+  text-align: left;
+}
+
+.chatterInfo p, .chatterInfo ol, .chatterInfo ul {
+  text-align: left;
 }
