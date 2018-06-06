@@ -6,6 +6,7 @@ var about_us = require("./about_us");
 var spaces = require("./spaces");
 var events = require("./events");
 var store = require("./store");
+var contact_us = require("./contact_us");
 
 module.exports = function(db) {
   // Other route modules go here
@@ -14,6 +15,7 @@ module.exports = function(db) {
   router.use("/spaces", spaces(db));
   router.use("/events", events(db));
   router.use("/store", store(db));
+  router.use("/contact_us", contact_us(db));
 
   // Handle static pages
   router.get("/", function(req, res, next) {
