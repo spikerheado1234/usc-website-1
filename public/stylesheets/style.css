@@ -197,3 +197,7 @@ a {
 }
 
 /* attributes pertaining to the store page. */
+.merchInfo h6, .merchInfo p {
+  text-align: left;
+  color: white;
+}
