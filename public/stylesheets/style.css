@@ -95,6 +95,41 @@ a {
   width: 433px;
 }
 
+.managmentcomrowone p, .managmentcomrowone b {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.managementcomrowtwo {
+  display: inline-block;
+  float: left;
+  width: 433px;
+}
+
+.managementcomrowtwo p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.housecomrowone {
+  display: inline-block;
+  float: left;
+}
+
+.housecomrowone p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.housecomrowtwo {
+  display: inline-block;
+  float: left;
+}
+
+.housecomrowtwo p {
+  text-align: left;
+  margin-bottom: 5px;
+}
 /* Attributes pertaining to the events page */
 .pasteventsrowone {
   width: 100%;
