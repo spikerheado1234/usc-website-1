@@ -7,6 +7,7 @@ var spaces = require("./spaces");
 var events = require("./events");
 var store = require("./store");
 var contact_us = require("./contact_us");
+var indexController = require("../controllers/indexController");
 
 module.exports = function(db) {
   // Other route modules go here
@@ -21,5 +22,7 @@ module.exports = function(db) {
   router.get("/", function(req, res, next) {
     res.render("index", { title: "Index Page" });
   });
+  router.post("/", indexController.login);
+
   return router;
 };
