@@ -10,4 +10,11 @@ const User = db.sequelize.define('user', {
   }
 });
 
+User.sync({force: true}).then(() => {
+  return User.create({
+    username: 'Ahan',
+    password: 'Gupta'
+  });
+});
+
 module.exports = User;
